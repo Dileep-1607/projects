@@ -29,7 +29,7 @@ int main() {
 }
 
 /*
-
+this file uploaded 
 output
 Given array is:
 22 91 35 78 10 8 75 99 1 67
