@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider 2 </title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .img-slider{
+            width: 60%;
+            height: 600px;
+            
+            background-size: 100% 100%;
+            box-shadow: rgba(149, 157, 165, .02) 0px 8px 24px;
+            animation: changeImage 10s linear infinite;
+        }
+
+        @keyframes changeImage {
+            0%{
+                background-image: url("images/image1.jpg");
+            }
+            20%{
+                background-image: url("images/image2.jpg");
+            }
+            30%{
+                background-image: url("images/image3.jpg");
+            }
+            60%{
+                background-image: url("images/image4.jpg");
+            }
+            90%{
+                background-image: url("images/image5.jpg");
+            }
+            100%{
+                background-image: url("images/image6.jpg");
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="img-slider"> </div>
+</body>
+</html>

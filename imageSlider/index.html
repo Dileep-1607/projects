@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image Slider</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+     .container{
+        height: 400px;
+        width: 900px;
+        border: 1px solid red; 
+        display: flex;
+        place-items: center;
+        float: left;
+        overflow: hidden;
+        position: relative;
+       
+        
+
+    }
+   
+
+    img{
+        height: 400px;
+        width: 900px;
+    }
+
+     h2{
+        position:absolute;
+        top: 5px;
+        left: 20%;
+    }
+    h3{
+        position:absolute;
+        bottom: 15px;
+        left: 20%;
+        color: #fff;
+    }
+    .btns{
+        margin-top: 5px;
+        margin-left: 45%;
+    }
+    .btn{
+        height: 15px;
+        width: 15px;
+        border: 1px solid green;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+   </style>
+</head>
+<body>
+     <header class="container">
+
+        <div class="slide1" id="img-1">
+            <h2>1/8</h2>
+            <img src="images/image1.jpg" alt="image1">
+             <h3>This is image 1</h3>
+        </div>
+        <div class="slide1" id="img-2">
+            <h2>2/8</h2>
+            <img src="images/image2.jpg" alt="image2">
+             <h3>This is image 2</h3>
+        </div>
+        <div class="slide1" id="img-3">
+            <h2>3/8</h2>
+            <img src="images/image3.jpg" alt="image3">
+             <h3>This is image 3</h3>
+        </div>
+        <div class="slide1" id="img-4">
+            <h2>4/8</h2>
+            <img src="images/image4.jpg" alt="image4">
+             <h3>This is image 4</h3>
+        </div>
+        <div class="slide1" id="img-5" >
+            <h2>5/8</h2>
+            <img src="images/image5.jpg" alt="image5">
+             <h3>This is image 5</h3>
+        </div>
+        <div class="slide1" id="img-6" >
+            <h2>6/8</h2>
+            <img src="images/image6.jpg" alt="image6">
+             <h3>This is image 6</h3>
+        </div>
+        <div class="slide1" id="img-7">
+            <h2>7/8</h2>
+            <img src="images/image7.jpg" alt="image7">
+             <h3>This is image 7</h3>
+        </div>
+        <div class="slide1" id="img-8">
+            <h2>8/8</h2>
+            <img src="images/image8.jpg" alt="image8">
+             <h3>This is image 8</h3>
+        </div>
+        
+    </header>
+    <div class="btns">
+        <button class="btn" id="img1"></button>
+        <button class="btn" id="img2"></button>
+        <button class="btn" id="img3"></button>
+        <button class="btn" id="img4"></button>
+        <button class="btn" id="img5"></button>
+        <button class="btn" id="img6"></button>
+        <button class="btn" id="img7"></button>
+        <button class="btn" id="img8"></button>
+
+    </div>
+     
+</body>
+</html>

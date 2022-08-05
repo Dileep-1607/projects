@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f8f8a8;
+}
+
+section.chat_section{
+    width: 800px;
+    max-width: 90%;
+}
+    </style> -->
+   
+</head>
+<body>
+    
+    <section class="chat_section">
+        <div class="brand">
+            <img src="" alt="Logo">
+            <h1>Chat Application </h1>
+        </div>
+        <div class="msg_area"></div>
+            
+        <div>
+            <textarea name="" id="textarea" cols="30" rows="1" placeholder="write a message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+ <script src="client.js"></script>
+</body>
+</html>
